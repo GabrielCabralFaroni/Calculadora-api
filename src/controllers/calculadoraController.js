@@ -52,6 +52,15 @@ res.send({
 })
 }
 
+exports.usuario = (req, res, next) => {
+
+    let nome = req.body.nome;
+    let idade = req.body.idade;
+
+    res.status(200).send(`nome ${nome} idade ${idade}`);
+};
+
+
 
 
 

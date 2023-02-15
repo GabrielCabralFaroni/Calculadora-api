@@ -9,6 +9,7 @@ router.post('/soma/:numero1/:numero2', controller.soma);
 router.post('/subtracao/:numero1/:numero2', controller.subtracao);
 router.post('/desafio/:pessoa', controller.desafio);
 router.post('/api/users', controller.api);
+router.post('/usuario', controller.usuario);
 
 
 
